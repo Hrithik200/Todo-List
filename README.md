@@ -1,96 +1,57 @@
 # Todo List Website
 
-This is a simple Todo List website that allows users to create, view, and delete tasks. It is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) to provide a full-stack solution.
+This is a simple Todo List website built using JavaScript and local storage. The website allows users to create, view, and delete their tasks.
 
 ## Features
 
-- Create new tasks: Users can add new tasks to the list.
-- View tasks: Users can view all the tasks in a list.
-- Delete tasks: Users can delete individual tasks from the list.
+- Create new tasks: Users can enter a task description and add it to their todo list.
+- View tasks: Users can see a list of all their tasks with their descriptions.
+- Delete tasks: Users can remove tasks from their todo list.
 
 ## Technologies Used
 
-- MongoDB: A NoSQL database used to store the tasks.
-- Express.js: A web application framework used to handle server-side logic.
-- React.js: A JavaScript library used for building user interfaces.
-- Node.js: A JavaScript runtime environment used for server-side development.
-
-## Prerequisites
-
-Before you can run this application, make sure you have the following installed:
-
-- Node.js: You can download it from the official website: [https://nodejs.org](https://nodejs.org)
-- MongoDB: You can download and install MongoDB from the official website: [https://www.mongodb.com](https://www.mongodb.com)
+- HTML: Markup language for creating the structure and content of the website.
+- CSS: Styling language for enhancing the visual appearance of the website.
+- JavaScript: Programming language for implementing the website's functionality.
+- Local Storage: Web API for storing data locally in the user's browser.
 
 ## Getting Started
 
-To get started with this project, follow these steps:
+To run this website locally, follow these steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-list.git
+   git clone https://github.com/hrithik200/todo-list.git
    ```
 
-2. Navigate to the project directory:
+2. Open the project folder in your preferred code editor.
 
-   ```bash
-   cd todo-list
-   ```
+3. Open the `index.html` file in a web browser.
 
-3. Install the dependencies:
+## Usage
 
-   ```bash
-   npm install
-   ```
+1. Create a new task:
+   - Enter the task description in the input field.
+   - Click the "Add" or "Enter" button to add the task to the list.
+   - The task will be saved in the local storage.
 
-4. Configure the database:
+2. View tasks:
+   - All saved tasks will be displayed on the screen.
+   - You can view the tasks even after closing and reopening the website.
 
-   - Make sure MongoDB is running on your system.
-   - Open the `config/default.json` file and update the MongoDB URI with your own connection string.
-
-5. Start the server and client:
-
-   - To start the server, run the following command:
-
-     ```bash
-     npm run server
-     ```
-
-   - To start the client, open a new terminal window, navigate to the project directory, and run the following command:
-
-     ```bash
-     npm run client
-     ```
-
-6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see the Todo List website in action.
+3. Delete a task:
+   - Click the "Delete" or "X" button next to the task you want to remove.
+   - The task will be removed from the list and local storage.
 
 ## Contributing
 
-If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Make your changes and commit them:
-
-   ```bash
-   git commit -m "Add your commit message here"
-   ```
-
-4. Push to the branch:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-5. Create a pull request in the original repository.
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
 
 
-Happy coding!
+## Acknowledgements
+
+This project was inspired by the need for a simple and easy-to-use todo list manager. 
+
+---
