@@ -91,14 +91,6 @@ If you'd like to contribute to this project, please follow these steps:
 
 5. Create a pull request in the original repository.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to me at your-email@example.com.
-
-You can also find me on GitHub: [https://github.com/your-username](https://github.com/your-username)
 
 Happy coding!
